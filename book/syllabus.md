@@ -1,19 +1,23 @@
 # Syllabus
 
-Por favor, lee detenidamente al comienzo de cada clase y revíselo tantas veces como sea necesario.
+Por favor, leia atenciosamente desde o começo desta aula e faça a revisão quantas vezes achar necessário.
 
-## ¿Qué aprenderemos?
-
-
-
-Este curso tiene como objetivo enseñar **técnicas modernas de análisis y visualización de datos climáticos** para (geo-)científicos. Los ejercicios serán desarrollados ulizando la herramienta **Geoscience Community Analysis Toolkit ([GeoCAT](https://geocat.ucar.edu/))** en su mayoria, ambiente que fue desarrollado por la **National Center for Atmospheric Research (NCAR)**.
+## O que pretendemos?
 
 
-Al concluir este curso, usted debe:
 
-- Estar familiarizado con un lenguaje de programación moderno y de código abierto (Python).
-- Conocer la forma de uso para análisis de datos.
-- Tener la capacidad de programar de forma estructurada, extensible y reproducible.
+Este curso tem como objetivo ensinar **técnicas modernas de análise e visualização de dados climáticos** para (geo-)cientistas. Os exercícios serão desenvolvidos ultilizando a ferramenta: **Geoscience Community Analysis Toolkit ([GeoCAT](https://geocat.ucar.edu/))** em sua maioria , ambiente que foi desenvolvido pelo **National Center for Atmospheric Research (NCAR)**.
+
+
+Ao concluir este curso, você deve:
+
+- Estar familiarizado con uma linguagem de programação moderna e de código aberto (Python).
+- Conhecer a forma de uso para análise de dados.
+- Ter a capacidade de programar de forma estruturada, extensiva e reprodutível.
+
+
+
+
 - Desarrollar la capacidad de buscar, comprender, instalar y aprovechar la gran variedad de paquetes y bibliotecas disponibles en el rico ecosistema científico de Python.
 - Ser capaz de descargar y procesar datos proventinves de modelos numéricos globales y de reanálisis (GSF, ERA5)
 - Ser capaz de analizar y graficar datos climáticos usando los recursos disponibles de python.
