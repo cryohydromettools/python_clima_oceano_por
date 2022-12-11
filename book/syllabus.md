@@ -2,7 +2,7 @@
 
 Por favor, leia atenciosamente desde o começo desta aula e faça a revisão quantas vezes achar necessário.
 
-## O que pretendemos?
+## Qual o Intuito do Curso?
 
 
 
@@ -14,94 +14,90 @@ Ao concluir este curso, você deve:
 - Estar familiarizado con uma linguagem de programação moderna e de código aberto (Python).
 - Conhecer a forma de uso para análise de dados.
 - Ter a capacidade de programar de forma estruturada, extensiva e reprodutível.
-
-
-
-
-- Desarrollar la capacidad de buscar, comprender, instalar y aprovechar la gran variedad de paquetes y bibliotecas disponibles en el rico ecosistema científico de Python.
-- Ser capaz de descargar y procesar datos proventinves de modelos numéricos globales y de reanálisis (GSF, ERA5)
-- Ser capaz de analizar y graficar datos climáticos usando los recursos disponibles de python.
-- Ser capaz de descargar, procesar y visualizar datos satelitales (GOES).
+- Desenvolver a capacidade de buscar, compreender, instalar e aproveitar a grande variedade de pacotes, funções e bibliotecas disponíveis no ecossitema do Python.
+- Ser capaz de baixar e processar dados provenientes de modelos númericos globais e reanálises (GFS, ERA5).
+- Ser capaz de analizar dados climáticos e produzir gráficos ultilizando recusros disponíveis no Python.
+- Ser capaz de baixar, processar e visualizar dados de satelites (GOES).
 
 ```{Importante}:
 
-Por lo tanto, nuestro objetivo en este curso es brindarle un **conocimiento básico sólido sobre técnicas modernas de análisis de datos climáticos**, para hacer de ti un **aprendiz independiente**, capaz de ampliar y profundizar sus habilidades en el análisis de datos.
+Para que os ítens acima possam ser alcançados, durante esse curso, no propomos a passar **conhecimento básico sólido sobre técnicas modernas de análise de dados climáticos**, para fazer de você um **aprendiz independente**, capaz de ampliar e aprofundar suas habilidades na análise de dados.
 ```
 
-## Plan de estudios
+## Plano de estudos
 
-El curso esta dividido en 4 módulos.
+O curso esta dividido em 4 módulos.
 
 ```{Módulos}:
 
-- Conceptos básicos de Python
-- Procesamiento de datos tabular
-- Procesamiento de datos de modelos numéricos y reanálisis
-- Procesamiento de datos satelitales
+- Conceitos básicos de Python
+- Procesamento de matriz dados
+- Procesamento de datos de modelos numéricos e reanálise
+- Procesamento de dados de satélite
 ```
-Los módulos serán desarrollados en 8 días de frecuencia interdiaria, con 3h lectivas cada día. Esto contempla 24h entre teoría y práctica.
+Os módulos serão desenvolvidos em 8 dias alternados, com 3h de aulas diárias, totalizando 24h entre teoría e prática.
 
-- Día 1 - Conceptos básicos de Python
-    - Bienvenido! Motivación & Syllabus
-    - Conceptos básicos de python
-    - Instalación de Python
+- Dia 1 - Conceitos básicos de Python
+    - Boas vindas! Motivação & Syllabus
+    - Conceitos básicos de python
+    - Instalação do Python
     - Uso de IDE (Integrated Development Environment)
-    - Creación de ambientes virtuales
-    - Instalación de librerías (usando conda y PIP)
+    - Criação de ambientes virtuais
+    - Instalação de bibliotecas (usando conda e PIP)
     
-- Día 2 - Conceptos básicos de Python 
-    - Operaciones y comandos básicos (+,-,*,/, strings, print, etc.)
+- Dia 2 - Conceitoss básicos de Python 
+    - Operações e comandos básicos (+,-,*,/, strings, print, etc.)
     - Operadores lógicos (if, elif, else, while, for, etc.)
-    - Creación de funciones
-    - Paradigmas de programación (estructurada)
-    - Paradigmas de programación (orientada a objetos)
-    - Elaboración de scripts
+    - Criação de funções
+    - Paradigmas de programação (estruturada)
+    - Paradigmas de programação (orientada a objetos)
+    - Elaboração de scripts
 
-- Día 3 - Procesamiento de datos tabular
-    - Descarga de archivos ascii
-    - Procesamiento de archivos ascii (txt, csv, xlsx, etc) usando pandas (dataframes)
-    - Procesamiento de series de tiempo
-    - Cálculos estadísticos
+- Dia 3 - Procesamento de dados matriciais
+    - Baixar arquivos ascii
+    - Procesamento de arquivos ascii (txt, csv, xlsx, etc) usando pandas (dataframes)
+    - Procesamento de series de tempo
+    - Cálculos estatísticos
 
-- Día 4 - Procesamiento de datos tabular
-    - Generación de gráficos temporales (línea, barras, boxplot, áreas sombreadas, etc.)
-    - Generación de gráficos sobre mapas geográficos (puntual, interpolación, etc.)
-    - Guardado de información como dataframe    
+- Dia 4 - Procesamento de dados matriciais
+    - Geração de gráficos temporais (linhas, barras, boxplot, áreas sombreadas, etc.)
+    - Geração de gráficos sobre mapas geográficos (puntual, interpolación, etc.)
+    - Armazenamento de informações como dataframe  
 
-- Día 5 - Procesamiento de datos de modelos numéricos y reanálisis
-    - Descarga de archivos del GFS y ERA5
-    - Procesamiento de datos del modelo GFS y ERA5 usando xarray
-    - Procesamiento de series de tiempo
-    - Cálculos estadísticos
+- Dia 5 - Procesamento de dados de modelos numéricos e reanálises
+    - Carregamento de arquivos do GFS y ERA5
+    - Procesamento de dados do modelo GFS e ERA5 usando xarray
+    - Procesamento de series temporais 
+    - Cálculos estatísticos
 
-- Día 6 - Procesamiento de datos de modelos numéricos y reanálisis
-    - Generación de gráficos temporales y perfiles verticales
-    - Generación de gráficos sobre mapas geográficos (líneas, áreas, barbas, streamlines, quives, etc.)
+- Dia 6 - Procesamento de dados de modelos numéricos e reanálise
+    - Geração de gráficos temporais e perfís verticais
+    - Generação de gráficos sobre mapas geográficos (líneas, áreas, barbas, streamlines, quives, etc.)
 
-- Día 7 - Procesamiento de datos de modelos numéricos y reanálisis
-    - Creación de un archivo netcdf
-    - Guardado de información como netcdf, binario, geotiff, shapefile, geojson
+- Dia 7 - Procesamento de dados de modelos numéricos e reanálise
+    - Criação de um arquivo netcdf
+    - Armazenamento de informação como: netcdf, binario, geotiff, shapefile, geojson
 
-- Día 8 - Procesamiento de datos satelitales
-    - Descarga de archivos del GOES
-    - Procesamiento de datos del GOES-16
-    - Generación de gráficos de canales simples
-    - Generación de gráficos RGB
-    - Generación de gráficos del GLM
-    - Generación de gráficos de ABI y GLM
-    - Guardado de información como netcdf, binario, geotiff
+- Dia 8 - Procesamento de dados de satélite
+    - Baixar arquivos do GOES
+    - Procesamento de dados do GOES-16
+    - Geração de gráficos simples
+    - Geração de gráficos RGB
+    - Geração de gráficos do GLM
+    - Geração de gráficos de ABI e GLM
+    - Armazenamento de informação como netcdf, binario, geotiff
 
-## Evaluación
+## Avaliação
 
-Cada módulo del curso tendrá una evaluación de trabajo grupal y/o práctica calificada; las cuales corresponde a un 25% del total de las evaluaciones.
+Cada módulo do curso terá uma evaluación de trabalho grupal e/ou prática qualificada; as quais correspondem 25% do total das avaliações.
 
-## Certificación
+## Certificado
 
-El certificado digital de la capacitación se brindará a aquellos participantes que cumplan con los siguientes requisitos:
+O certificado digital da capacitação será dado àqueles participantes que cumpram os seguintes requisitos:
 
-- **Asistir como mínimo al 88% de las sesiones** de clase.
-- Aprobar el curso con un puntaje **mínimo de once (11)**.
+- **Asistir pelo menos 88% de las sessões** de aula.
+- Ser aprobado no curso com pontuação **mínimo de once (11)**.
 
 
 
-## Ir para el [indice del material](./indice.md)
+## Ir para o [indice do material](./indice.md)
